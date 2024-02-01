@@ -1,0 +1,133 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    border: 2px solid goldenrod;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: black;
+  }
+  @media screen and (max-width: 648px) {
+    body {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      padding-left: 10px;
+      padding-top: 20px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+    }
+  }
+  .temperature-heading {
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  .heading {
+    margin-bottom: 40px;
+  }
+  .value-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .value {
+    font-weight: bold;
+    color: goldenrod;
+    margin-bottom: 9px;
+  }
+  .data-box {
+    display: flex;
+    gap: 10px;
+  }
+  #temp_diff1 {
+    background-color: transparent;
+    color: grey;
+    font-weight: bold;
+    border: none;
+    border-bottom: 2px solid grey;
+    font-size: 1.3rem;
+    width: 70px;
+  }
+  #temp_diff1:focus {
+    border: none;
+  }
+  .temperature-conversion-box {
+    display: flex;
+    gap: 90px;
+  }
+  .conversion-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .conversion {
+    font-weight: bold;
+    color: goldenrod;
+    margin-bottom: 20px;
+  }
+  option {
+    color: grey;
+    font-weight: bold;
+    background-color: black;
+  }
+  #temp_diff2 {
+    background-color: transparent;
+    color: grey;
+    font-weight: bold;
+    border: none;
+    border-bottom: 2px solid grey;
+    font-size: 1.3rem;
+  }
+  #temp_diff2:focus {
+    border: none;
+  }
+  .submit-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+  }
+  #submit {
+    width: 200px;
+    height: 40px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+  }
+  #resultContainer {
+    color: grey;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+  }
+  #temp {
+    color: grey;
+    font-size: 1.3rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid grey;
+    width: 60px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+  }
+  .watermark {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
